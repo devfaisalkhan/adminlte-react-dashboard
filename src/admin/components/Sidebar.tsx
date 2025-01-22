@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Sidebar = () => {
   return (
     <aside className="main-sidebar sidebar-dark-primary elevation-4">
