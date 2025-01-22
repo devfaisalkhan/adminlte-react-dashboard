@@ -1,50 +1,51 @@
-# React + TypeScript + Vite
+# AdminLTE - React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project integrates the powerful **AdminLTE template** with the flexibility of **React**, creating a dynamic and modern admin dashboard for web applications.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- **AdminLTE Version:** 3.2.0
+- **React Version:** Latest Stable Version
+- **Responsive Design**: Fully compatible with mobile, tablet, and desktop screens.
+- **Customizable Components**: Modular architecture for easy customization.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Live Demo
+Explore the live demo:
+[Online Demo](https://devfaisalkhan.github.io/adminlte-react-dashboard)
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+---
+
+## Development Setup
+
+### Step 1: Install Dependencies
+Run the following command to install project dependencies:
+
+```bash
+npm install
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+### Step 3: Start Development Server
+Run the development server to preview the application:
+
+```bash
+npm run dev
 ```
+
+The application will be available at:
+[http://localhost:5173/](http://localhost:5173)
+
+### Step 4: Deploy to GitHub Pages
+If you want to upload the project to GitHub Pages, run the following command:
+
+```bash
+npm run deploy
+```
+
+
+
